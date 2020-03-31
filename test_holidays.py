@@ -1,10 +1,11 @@
 """
 test_holidays.py
 
-"""
+# pokud se testovaný program nachází v nadřazeném adresáři, použit tento kód
 from os import path
 import sys
 sys.path.append(path.join(path.dirname(__file__), '..'))
+"""
 
 import pytest
 import isholiday
